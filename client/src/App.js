@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./containers/Home/Home";
+import Search from "./containers/Search/Search";
 import NoMatch from "./containers/NoMatch/NoMatch";
 import axios from "axios"
 
@@ -20,6 +21,8 @@ function App() {
 <Router>
  <Switch>
    <Route exact path="/" component={Home}/>
+   <Route exact path="/search" component={Search}/>
+
    <Route component = {NoMatch}/>
  </Switch>
 </Router>
