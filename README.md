@@ -135,7 +135,7 @@ If you have any questions about this project or the material we have covered, pl
 
 *******************************
 
-[Link to Deployed Site] (https://gt-my-react-portfolio.herokuapp.com/)
+[Link to Deployed Site] (https://radiant-sands-21854.herokuapp.com/)
 
 [Link to GitHub] (https://github.com/DanielleByrne/gt-google-books)
 
@@ -153,7 +153,6 @@ Clone the repository from GitHub and run npm install, run npm start to start the
 
 ## Usage 
 
-This HTML file uses Semantic HTML elements to increase accessibility of the site while maintaining the appearance. 
 ![]()
 ![]()
 
