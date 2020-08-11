@@ -1,6 +1,11 @@
 import React from "react";
+import { Component } from "react";
 
-function SearchForm(props) {
+class SearchForm extends Component {
+  state = {
+    books: []
+  }
+  render(){
   return (
     <form>
       <div className="form-group">
@@ -22,5 +27,7 @@ function SearchForm(props) {
     </form>
   );
 }
+}
+
 
 export default SearchForm;
