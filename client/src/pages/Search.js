@@ -34,6 +34,8 @@ class Search extends Component {
   }
   render() {
     return (
+        <div className="container">
+            <h1 style={{ marginTop: "30px" }}>Search for a book!</h1>
       <div>
         <form>
           <div className="form-group">
@@ -53,6 +55,7 @@ class Search extends Component {
             </button>
           </div>
         </form>
+      </div>
       </div>
     );
   }
